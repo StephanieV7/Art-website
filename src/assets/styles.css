@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Splash&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* display: grid;
+  grid-template-rows: 3.5rem auto fit-content(8rem); */
+  height: 100vh;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: rgb(219, 210, 207);
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  /* grid-row: 1 / 2; */
+}
+
+.brand {
+  display: flex;
+  width: 90vw;
+}
+
+.brand img {
+  width: 7rem;
+  margin: 0.5rem 0;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  font-family: "Splash", cursive;
+}
+
+.toggleButton {
+  background: transparent;
+  border: none;
+}
+
+.toggleButton img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.toggleButton img:active {
+  background: white;
+  border: 1px solid white;
+  border-radius: 20%;
+}
+
+.mainNav {
+  display: none;
+}
+
+.mainNavItem:hover,
+.mainNavItem:active,
+.mainFooterLink a:hover {
+  color: rgb(255, 255, 255);
+  text-decoration-line: underline;
+  text-decoration-thickness: 3px;
+}
+
+/* .mainContent {
+  grid-row: 2 / 3;
+} */
+
+.mainFooter {
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(201, 193, 190);
+  width: 100%;
+  /* grid-row: 3 / 4; */
+}
+
+.mainFooterLinks {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  margin: 0;
+}
+
+.mainFooterLink a {
+  text-decoration: none;
+  color: rgb(48, 48, 48);
+  margin: 0.5rem;
+}
+
+@media (min-width: 40rem) {
+  .mainNav {
+    display: flex;
+    padding: 1.2rem;
+    color: rgb(48, 48, 48);
+    width: 100%;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+  }
+
+  .mainNavItem {
+    color: rgb(48, 48, 48);
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+  }
+
+  .headerHeadline {
+    font-size: 3rem;
+  }
+
+  header {
+    flex-direction: column;
+  }
+
+  .toggleButton {
+    display: none;
+  }
+
+  .mainFooterLinks {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
