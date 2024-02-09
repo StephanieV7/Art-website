@@ -1,0 +1,75 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  overflow: hidden;
+}
+
+.mainContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 100%;
+}
+
+.brushImg {
+  position: absolute;
+  align-self: auto;
+  z-index: 5;
+  width: auto;
+  height: 40rem;
+  transition: transform 1s ease-in-out;
+}
+
+.hiddenImg {
+  position: relative;
+  align-self: center;
+  z-index: 1;
+  width: 100%;
+  height: 90%;
+  /* opacity: 0;
+  transition: opacity 1s ease; */
+}
+
+/* .brushImg:hover {
+  transform: translateY(80%);
+} */
+
+/* .mainContainer:hover .hiddenImg {
+  opacity: 1;
+} */
+
+.coverBlock {
+  position: absolute;
+  z-index: 2;
+ background-color: rgb(219, 210, 207);
+  align-self: center;
+  width: 100%;
+  height: 100%;
+  transition: transform 3s ease-in-out;
+}
+
+.mainContainer:hover .coverBlock,
+.mainContainer:hover .brushImg {
+  animation: slide 3s ease-in-out ;
+  transition: transform 3s ease-in-out;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
