@@ -1,0 +1,54 @@
+{
+  "images": [
+    {
+      "src": "src/assets/artworks/IMG_2709.jpg",
+      "alt": "Image 1"
+    },
+ 
+    {
+      "src": "src/assets/artworks/IMG_6323.jpg",
+      "alt": "Image 3"
+    },
+    
+    {
+      "src": "src/assets/artworks/IMG_6289.jpg",
+      "alt": "Image 3"
+    },
+
+    {
+      "src": "src/assets/artworks/IMG_6296.jpg",
+      "alt": "Image 1"
+    },
+    {
+      "src": "src/assets/artworks/IMG_6312.jpg",
+      "alt": "Image 2"
+    },
+    {
+      "src": "src/assets/artworks/IMG_3911.jpg",
+      "alt": "Image 3"
+    },
+
+    {
+      "src": "src/assets/artworks/IMG_3965.png",
+      "alt": "Image 3"
+    },
+
+    {
+      "src": "src/assets/artworks/IMG_3962.png",
+      "alt": "Image 1"
+    },
+    {
+      "src": "src/assets/artworks/IMG_3964.png",
+      "alt": "Image 2"
+    },
+ 
+    {
+      "src": "src/assets/artworks/IMG_3974.png",
+      "alt": "Image 2"
+    },
+    {
+      "src": "src/assets/artworks/IMG_4002.png",
+      "alt": "Image 3"
+    }
+  ]
+}
